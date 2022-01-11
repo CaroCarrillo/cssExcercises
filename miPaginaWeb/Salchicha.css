@@ -1,0 +1,112 @@
+body{
+    background-color: #AE431E;
+}
+
+#barraMovimiento {
+    background-color:#D06224 ;
+    padding: 1% 1%;
+    border-radius: 4rem;
+    margin: 0 10%;
+}
+
+marquee{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+h2{
+    color: rgba(250, 179, 171, 0.925);
+    text-align: center;  
+}
+
+p{
+    font-size: 20px;
+    color: rgb(154, 175, 114);
+    text-align: center;
+}
+
+em{
+    color: #D06224;
+    text-align: center;
+}
+
+/*images*/
+#background-img {
+    background-color:#D06224;
+    padding: 1% 1%;
+    border-radius: 4rem;
+    margin: 0 10%;
+}
+
+#contenido {/*es el cuadro pequeño que esta como fondo*/
+    border-radius: 2rem;/*esquinas redondeadas*/
+    background-color: #f9eced;
+    margin-right: 10%;/*5% 20% margen superior e inferior y margenes laterales*/
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*padding-bottom: 3%; */
+}
+
+div.gallery {
+    margin: 5px;
+    border: px solid #E9C891 ;
+    float: left;
+    width: 600px;/*tamaño de las imagenes de perrito*/
+}
+
+div.gallery:hover { /*Borde en la imagen que aparece cuando le das click a la imagen*/
+    border: 20px solid #E9C891;
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: justify;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("img_nature.jpg");
+    min-height: 380px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+}
+  /* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+  /* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+  /* Navbar links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
